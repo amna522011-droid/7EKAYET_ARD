@@ -1,0 +1,925 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="حكاية أرض: رحلة تفاعلية لاكتشاف الاحتباس الحراري وتأثيره على كوكبنا.">
+    <meta name="theme-color" content="#081426">
+
+    <title>حكاية أرض | 7EKAYET ARD</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">🌍</span>
+            <span>حكاية أرض</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#beginning">الحكاية</a>
+            <a href="#greenhouse">الاحتباس الحراري</a>
+            <a href="#timeline">رحلة الزمن</a>
+            <a href="#ozone">الأوزون</a>
+            <a href="#city-game">مستقبل المدينة</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="فتح القائمة" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             SECTION 01: HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background">
+                <div class="stars"></div>
+                <div class="glow glow-one"></div>
+                <div class="glow glow-two"></div>
+            </div>
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    A STORY YOU CAN CHANGE
+                </span>
+
+                <h1>
+                    كل أرض ليها
+                    <span>حكاية...</span>
+                </h1>
+
+                <p class="hero-description">
+                    كان يا ما كان، كوكب جميل اسمه الأرض.
+                    كان مليان حياة، وألوان، وأحلام...
+                    لحد ما بدأت حكايته تتغير.
+                </p>
+
+                <a href="#beginning" class="primary-btn">
+                    ابدأ الحكاية
+                    <span>←</span>
+                </a>
+
+                <p class="hero-note">
+                    رحلة صغيرة لفهم مشكلة كبيرة.
+                </p>
+
+            </div>
+
+            <div class="hero-earth">
+
+                <div class="earth-orbit orbit-one"></div>
+                <div class="earth-orbit orbit-two"></div>
+
+                <div class="earth-planet">
+
+                    <div class="earth-half earth-green">
+                        <span class="earth-land"></span>
+                    </div>
+
+                    <div class="earth-half earth-fire">
+                        <span class="fire-effect"></span>
+                    </div>
+
+                    <div class="earth-divider"></div>
+
+                </div>
+
+                <div class="earth-caption">
+                    <span>THE FUTURE IS IN OUR HANDS</span>
+                </div>
+
+            </div>
+
+            <a href="#beginning" class="scroll-indicator">
+                <span>اكتشف الحكاية</span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 02: THE STORY
+        ========================== -->
+
+        <section class="story-section section" id="beginning">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 01</span>
+
+                <h2>
+                    في يوم من الأيام...
+                    <span>كانت الأرض بخير.</span>
+                </h2>
+
+                <p>
+                    قبل ما تبدأ الحكاية تتغير، كان كل شيء مختلف.
+                </p>
+
+            </div>
+
+            <div class="story-content">
+
+                <div class="story-image">
+                    <div class="story-image-placeholder">
+                        <span>🌳</span>
+                        <span>🌎</span>
+                        <span>🌿</span>
+                    </div>
+                </div>
+
+                <div class="story-text">
+
+                    <p class="story-paragraph">
+                        تخيّل إنك واقف وسط غابة واسعة،
+                        الهوا نقي، والشمس دافية،
+                        والأنهار ماشية في هدوء.
+                    </p>
+
+                    <p class="story-paragraph">
+                        الأرض كانت بتعمل حاجة عبقرية:
+                        بتحافظ على درجة حرارة مناسبة للحياة.
+                    </p>
+
+                    <p class="story-paragraph highlight-text">
+                        لكن مع الوقت، بدأ الإنسان يغيّر
+                        قواعد اللعبة.
+                    </p>
+
+                    <button class="secondary-btn" id="nextStory">
+                        كمّل الحكاية
+                        <span>←</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="story-extra" id="storyExtra" hidden>
+
+                <h3>وبدأت المشكلة...</h3>
+
+                <p>
+                    زادت المصانع، وانتشر استخدام الفحم والبترول،
+                    وبدأت الغازات الدفيئة تتراكم في الغلاف الجوي.
+                    ومع زيادة تركيزها، زادت كمية الحرارة التي يحتفظ بها
+                    نظام الأرض.
+                </p>
+
+                <a href="#greenhouse" class="text-link">
+                    اكتشف السر بنفسك ←
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 03: GREENHOUSE EFFECT
+        ========================== -->
+
+        <section class="greenhouse-section section" id="greenhouse">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 02</span>
+
+                <h2>
+                    سر الغلاف الجوي
+                    <span>والحرارة المحتبسة</span>
+                </h2>
+
+                <p>
+                    إزاي الغلاف الجوي بيساعد الأرض تحتفظ بالدفء؟
+                </p>
+
+            </div>
+
+            <div class="greenhouse-intro">
+
+                <div class="greenhouse-info">
+                    <h3>تأثير الاحتباس الحراري</h3>
+
+                    <p>
+                        تخيّل الغلاف الجوي كأنه بطانية حوالين الأرض.
+                        جزء من الحرارة بيرجع تاني ناحية السطح بسبب
+                        الغازات الدفيئة، وده طبيعي وضروري للحياة.
+                    </p>
+
+                    <p>
+                        المشكلة بتحصل لما الأنشطة البشرية تزود
+                        تركيز الغازات دي، فتحتفظ الأرض بقدر أكبر
+                        من الطاقة وتزيد حرارتها.
+                    </p>
+                </div>
+
+                <div class="greenhouse-visual">
+
+                    <div class="sun">☀️</div>
+
+                    <div class="atmosphere-ring"></div>
+
+                    <div class="greenhouse-earth">
+                        🌍
+                    </div>
+
+                    <div class="heat-arrow heat-one">↓</div>
+                    <div class="heat-arrow heat-two">↑</div>
+                    <div class="heat-arrow heat-three">↙</div>
+
+                    <span class="visual-label">
+                        ATMOSPHERE
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Interactive greenhouse lab -->
+
+            <div class="interactive-lab">
+
+                <div class="lab-header">
+
+                    <span class="lab-tag">INTERACTIVE LAB</span>
+
+                    <h3>
+                        جرّب بنفسك!
+                    </h3>
+
+                    <p>
+                        غيّر مستوى الغازات الدفيئة وشوف
+                        إزاي بيتغير النموذج التعليمي.
+                    </p>
+
+                </div>
+
+                <div class="lab-controls">
+
+                    <label for="gasSlider">
+                        مستوى الغازات الدفيئة
+                    </label>
+
+                    <div class="slider-values">
+                        <span>منخفض</span>
+                        <strong id="gasValue">50%</strong>
+                        <span>مرتفع</span>
+                    </div>
+
+                    <input
+                        type="range"
+                        id="gasSlider"
+                        min="0"
+                        max="100"
+                        value="50"
+                    >
+
+                    <div class="temperature-result">
+
+                        <span>مؤشر الاحتفاظ بالحرارة</span>
+
+                        <strong id="heatResult">50%</strong>
+
+                    </div>
+
+                    <p class="lab-disclaimer">
+                        ملاحظة: دي محاكاة تعليمية مبسطة وليست
+                        نموذجًا علميًا لحساب درجات الحرارة الفعلية.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 04: TIMELINE
+        ========================== -->
+
+        <section class="timeline-section section" id="timeline">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 03</span>
+
+                <h2>
+                    الحكاية عبر الزمن
+                    <span>إزاي وصلنا لهنا؟</span>
+                </h2>
+
+                <p>
+                    كل تغيير كبير وراه سلسلة من الأحداث.
+                </p>
+
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">1750s</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>الثورة الصناعية</h3>
+
+                        <p>
+                            بدأ استخدام الفحم على نطاق واسع
+                            في المصانع والآلات، وبدأت انبعاثات
+                            الغازات الدفيئة في الزيادة.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">1856</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>تجربة إيونيس فوت</h3>
+
+                        <p>
+                            أظهرت العالمة إيونيس فوت أن ثاني
+                            أكسيد الكربون يمكنه امتصاص الحرارة.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">1958</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>قياسات كيلينغ</h3>
+
+                        <p>
+                            بدأت قياسات مستمرة لتركيز ثاني
+                            أكسيد الكربون في الغلاف الجوي
+                            بمحطة ماونا لوا.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">1988</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>تأسيس IPCC</h3>
+
+                        <p>
+                            تأسست الهيئة الحكومية الدولية
+                            المعنية بتغير المناخ لتقييم
+                            الأبحاث العلمية حول تغير المناخ.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">2015</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>اتفاق باريس</h3>
+
+                        <p>
+                            اتفقت الدول على العمل للحد من
+                            الاحترار العالمي والتعامل مع
+                            مخاطر تغير المناخ.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="timeline-item">
+
+                    <span class="timeline-year">TODAY</span>
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-card">
+                        <h3>الحكاية مستمرة</h3>
+
+                        <p>
+                            العالم بيواجه تحديات مناخية،
+                            ولسه عندنا فرصة نختار مستقبل أفضل.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 05: OZONE LAYER
+        ========================== -->
+
+        <section class="ozone-section section" id="ozone">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 04</span>
+
+                <h2>
+                    حكاية طبقة الأوزون
+                    <span>هل هي نفس المشكلة؟</span>
+                </h2>
+
+                <p>
+                    في حاجات بتتشابه في الشكل، لكنها مختلفة في السبب.
+                </p>
+
+            </div>
+
+            <div class="ozone-content">
+
+                <div class="ozone-visual">
+                    <div class="ozone-earth">🌍</div>
+                    <div class="ozone-atmosphere"></div>
+                    <div class="uv-rays">☀️</div>
+                </div>
+
+                <div class="ozone-info">
+
+                    <h3>طبقة بتحمينا من الأشعة فوق البنفسجية</h3>
+
+                    <p>
+                        طبقة الأوزون موجودة في طبقة الستراتوسفير،
+                        وبتساعد على امتصاص جزء كبير من الأشعة
+                        فوق البنفسجية الضارة القادمة من الشمس.
+                    </p>
+
+                    <p>
+                        بعض المواد الكيميائية، زي مركبات
+                        الكلوروفلوروكربون (CFCs)، ساهمت في
+                        استنزاف الأوزون.
+                    </p>
+
+                    <div class="important-note">
+                        <strong>خلي بالك!</strong>
+
+                        <p>
+                            استنزاف طبقة الأوزون مش هو السبب
+                            الرئيسي للاحتباس الحراري. دي مشكلتان
+                            مختلفتان، رغم وجود بعض الروابط بينهما.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 06: CLIMATE IMPACT
+        ========================== -->
+
+        <section class="impact-section section" id="impact">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 05</span>
+
+                <h2>
+                    لما الأرض تتغير...
+                    <span>إيه اللي بيحصل؟</span>
+                </h2>
+
+                <p>
+                    تأثيرات تغير المناخ مش مجرد أرقام.
+                    دي تغييرات بنشوف آثارها في حياتنا.
+                </p>
+
+            </div>
+
+            <div class="impact-grid">
+
+                <article class="impact-card">
+                    <span class="impact-icon">🌡️</span>
+                    <h3>موجات الحر</h3>
+                    <p>
+                        زيادة شدة وتكرار موجات الحر
+                        في مناطق كثيرة من العالم.
+                    </p>
+                </article>
+
+                <article class="impact-card">
+                    <span class="impact-icon">🧊</span>
+                    <h3>ذوبان الجليد</h3>
+                    <p>
+                        ارتفاع درجات الحرارة يساهم
+                        في فقدان الجليد وارتفاع مستوى البحار.
+                    </p>
+                </article>
+
+                <article class="impact-card">
+                    <span class="impact-icon">🌊</span>
+                    <h3>ارتفاع البحار</h3>
+                    <p>
+                        ارتفاع مستوى سطح البحر
+                        يهدد المناطق الساحلية.
+                    </p>
+                </article>
+
+                <article class="impact-card">
+                    <span class="impact-icon">🌾</span>
+                    <h3>الزراعة والغذاء</h3>
+                    <p>
+                        تغير أنماط الأمطار والحرارة
+                        ممكن يؤثر على المحاصيل.
+                    </p>
+                </article>
+
+                <article class="impact-card">
+                    <span class="impact-icon">🔥</span>
+                    <h3>حرائق الغابات</h3>
+                    <p>
+                        الحرارة والجفاف قد يزيدان
+                        خطر الحرائق في ظروف مناسبة.
+                    </p>
+                </article>
+
+                <article class="impact-card">
+                    <span class="impact-icon">🫁</span>
+                    <h3>صحة الإنسان</h3>
+                    <p>
+                        الحرارة الشديدة وبعض آثار
+                        تغير المناخ تؤثر على صحة البشر.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 07: CITY SIMULATOR
+        ========================== -->
+
+        <section class="city-section section" id="city-game">
+
+            <div class="section-heading">
+
+                <span class="section-tag">CHAPTER 06</span>
+
+                <h2>
+                    دلوقتي دورك...
+                    <span>اختار مستقبل مدينتك!</span>
+                </h2>
+
+                <p>
+                    تخيل إنك مسؤول عن مدينة صغيرة.
+                    قراراتك ممكن تغيّر شكلها.
+                </p>
+
+            </div>
+
+            <div class="city-game">
+
+                <!-- City illustration -->
+
+                <div class="city-visual" id="cityVisual">
+
+                    <div class="city-sky">
+                        <span class="city-sun">☀️</span>
+                        <span class="city-cloud cloud-one">☁️</span>
+                        <span class="city-cloud cloud-two">☁️</span>
+                    </div>
+
+                    <div class="city-buildings">
+
+                        <div class="building building-one">
+                            <div class="windows"></div>
+                        </div>
+
+                        <div class="building building-two">
+                            <div class="windows"></div>
+                        </div>
+
+                        <div class="building building-three">
+                            <div class="windows"></div>
+                        </div>
+
+                        <div class="building factory">
+                            <div class="factory-smoke"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="city-trees">
+                        <span>🌳</span>
+                        <span>🌲</span>
+                        <span>🌳</span>
+                        <span>🌲</span>
+                    </div>
+
+                    <div class="city-road">
+                        <span>🚗</span>
+                    </div>
+
+                </div>
+
+
+                <!-- City controls -->
+
+                <div class="city-controls">
+
+                    <h3>قراراتك للمدينة</h3>
+
+                    <div class="city-control">
+
+                        <label for="energySlider">
+                            <span>⚡ الطاقة النظيفة</span>
+                            <strong id="energyValue">50%</strong>
+                        </label>
+
+                        <input
+                            type="range"
+                            id="energySlider"
+                            min="0"
+                            max="100"
+                            value="50"
+                        >
+
+                    </div>
+
+
+                    <div class="city-control">
+
+                        <label for="treesSlider">
+                            <span>🌳 المساحات الخضراء</span>
+                            <strong id="treesValue">50%</strong>
+                        </label>
+
+                        <input
+                            type="range"
+                            id="treesSlider"
+                            min="0"
+                            max="100"
+                            value="50"
+                        >
+
+                    </div>
+
+
+                    <div class="city-control">
+
+                        <label for="transportSlider">
+                            <span>🚲 النقل المستدام</span>
+                            <strong id="transportValue">50%</strong>
+                        </label>
+
+                        <input
+                            type="range"
+                            id="transportSlider"
+                            min="0"
+                            max="100"
+                            value="50"
+                        >
+
+                    </div>
+
+
+                    <div class="city-score">
+
+                        <span>مؤشر استدامة المدينة</span>
+
+                        <strong id="cityScore">50%</strong>
+
+                        <div class="score-bar">
+                            <div class="score-progress" id="scoreProgress"></div>
+                        </div>
+
+                        <p id="cityMessage">
+                            مدينتك في بداية الطريق نحو مستقبل أفضل.
+                        </p>
+
+                    </div>
+
+
+                    <button class="primary-btn reset-btn" id="resetCity">
+                        إعادة ضبط المدينة
+                    </button>
+
+                    <p class="lab-disclaimer">
+                        المحاكاة توضيحية وليست توقعًا علميًا
+                        لانبعاثات أو درجات حرارة مدينة حقيقية.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 08: QUIZ
+        ========================== -->
+
+        <section class="quiz-section section" id="quiz">
+
+            <div class="section-heading">
+
+                <span class="section-tag">FINAL CHAPTER</span>
+
+                <h2>
+                    وصلت لنهاية الحكاية...
+                    <span>بس هل فهمت السر؟</span>
+                </h2>
+
+                <p>
+                    اختبر معلوماتك وشوف إيه اللي اتعلمته.
+                </p>
+
+            </div>
+
+
+            <div class="quiz-container" id="quizContainer">
+
+                <div class="quiz-progress">
+                    <span id="quizQuestionNumber">السؤال 1 من 5</span>
+
+                    <div class="quiz-progress-bar">
+                        <div id="quizProgress"></div>
+                    </div>
+                </div>
+
+
+                <div class="quiz-question-area">
+
+                    <h3 id="quizQuestion">
+                        ما السبب الرئيسي لزيادة الاحتباس الحراري
+                        في العصر الحديث؟
+                    </h3>
+
+                    <div class="quiz-options" id="quizOptions">
+
+                        <button class="quiz-option" data-answer="0">
+                            زيادة انبعاثات الغازات الدفيئة بسبب الأنشطة البشرية
+                        </button>
+
+                        <button class="quiz-option" data-answer="1">
+                            ثقب الأوزون فقط
+                        </button>
+
+                        <button class="quiz-option" data-answer="2">
+                            اختفاء الغابات فقط
+                        </button>
+
+                        <button class="quiz-option" data-answer="3">
+                            تغير المسافة بين الأرض والشمس
+                        </button>
+
+                    </div>
+
+                    <p id="quizFeedback" class="quiz-feedback"></p>
+
+                    <button class="primary-btn quiz-next" id="nextQuestion" hidden>
+                        السؤال التالي ←
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="quiz-result" id="quizResult" hidden>
+
+                <span class="result-icon">🌍</span>
+
+                <h3>خلصت الرحلة!</h3>
+
+                <p id="finalScore">
+                    نتيجتك: 0 من 5
+                </p>
+
+                <p id="resultMessage">
+                    كل خطوة في التعلم بتفرق.
+                </p>
+
+                <button class="primary-btn" id="restartQuiz">
+                    جرّب تاني
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SECTION 09: FINAL MESSAGE
+        ========================== -->
+
+        <section class="ending-section section" id="ending">
+
+            <div class="ending-content">
+
+                <span class="ending-earth">🌎</span>
+
+                <span class="section-tag">THE END?</span>
+
+                <h2>
+                    دي مش نهاية الحكاية...
+                    <span>دي بدايتها معاك.</span>
+                </h2>
+
+                <p>
+                    مش لازم تغيّر العالم في يوم واحد.
+                    لكن كل قرار واعي، وكل خطوة صغيرة،
+                    ممكن تكون جزء من مستقبل أفضل.
+                </p>
+
+                <a href="#home" class="primary-btn">
+                    ارجع لبداية الحكاية ↑
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            🌍 حكاية أرض
+        </div>
+
+        <p>
+            A STORY YOU CAN CHANGE.
+        </p>
+
+        <p class="footer-copy">
+            © 2026 7EKAYET ARD | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
